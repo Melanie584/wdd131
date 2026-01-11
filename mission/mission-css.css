@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    color: #026fe2;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
+
+.linetwo{
+    font-style: italic;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #e0e0e0;  
+    width: 85%;
+    margin: 12px auto 30px;
+}
+
+p{
+  text-align: left;
+  max-width: 520px;     
+  margin: 25px auto;    
+  line-height: 1.6;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+  background: white;
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 60px 70px;
+}
