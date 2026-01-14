@@ -18,7 +18,6 @@ function changeTheme() {
         // default
         document.body.style.backgroundImage = "none";
         pageContent.style.fontFamily = "Georgia, serif";
-        // does code work
     }
 }
           
