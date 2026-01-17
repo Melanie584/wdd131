@@ -10,7 +10,7 @@ function changeTheme() {
         logo.src = 'byui-logo-white.png';
     } else {
         document.body.classList.remove('dark');
-        logo.src = 'byui-logo-blue.png';
+        logo.src = 'https://melanie584.github.io/wdd131/mission/byui-logo-blue.webp';
     }
 }           
                     
