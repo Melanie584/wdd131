@@ -1,5 +1,9 @@
 body{
     background-color: white;
+    border: 1px black solid;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 10px 20px;
 }
 
 h1{
@@ -46,4 +50,23 @@ main {
   max-width: 650px;
   margin: 40px auto;
   padding: 60px 70px;
+}
+
+body.dark{
+    /* background-color: purple; */
+    background: #212121;
+    color: white;
+    border: 1px white solid;
+}
+
+body.dark main{
+    background-color: #212121;
+    color: white;
+}
+
+.container-change{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+ 
 }
