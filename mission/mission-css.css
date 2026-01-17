@@ -53,7 +53,6 @@ main {
 }
 
 body.dark{
-    /* background-color: purple; */
     background: #212121;
     color: white;
     border: 1px white solid;
