@@ -5,30 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cool Pics</title>
   <link rel="stylesheet" href="style.css">
+  <script src="coolpics.js" defer></script>
 </head>
 <body>
 
   <header class="top-page">
     <h1>Cool Pics 📷</h1>
-    <h2 class="menu-label">Menu</h2>
+    <button class="menu-label" id="menuBtn">Menu</button>
     <nav class="nav-links">
       <a href="#">Home</a>
-      <a href="#">Boise</a>
       <a href="#">Pics</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
   </header>
 
+  <dialog id="imgModal">
+    <button id="closeModal">X</button>
+    <img id="modalImg" alt="">
+  </dialog>
+
   <main>
     <p>Current Work</p>
     <section class="gallery">
-      <img src="YellowStone Image.jpg" alt="Picture of Yellowstone">
-      <img src="YellowStone Image.jpg" alt="Picture of Yellowstone">
-      <img src="YellowStone Image.jpg" alt="Picture of Yellowstone">
-      <img src="YellowStone Image.jpg" alt="Picture of Yellowstone">
-      <img src="YellowStone Image.jpg" alt="Picture of Yellowstone">
-      <img src="YellowStone Image.jpg" alt="Picture of Yellowstone">
+      <img class="gallery-img" src="yellowstone_image_higher.jpg" alt="Picture of Yellowstone">
+      <img class="gallery-img" src="yellowstone_image_higher.jpg" alt="Picture of Yellowstone">
+      <img class="gallery-img" src="yellowstone_image_higher.jpg" alt="Picture of Yellowstone">
+      <img class="gallery-img" src="yellowstone_image_higher.jpg" alt="Picture of Yellowstone">
+      <img class="gallery-img" src="yellowstone_image_higher.jpg" alt="Picture of Yellowstone">
+      <img class="gallery-img" src="yellowstone_image_higher.jpg" alt="Picture of Yellowstone">
     </section>
   </main>
 
@@ -36,3 +41,4 @@
 
 </body>
 </html>
+
