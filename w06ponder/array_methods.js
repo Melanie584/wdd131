@@ -93,4 +93,27 @@ const shortWords = words.filter(function(word){
 })
 
 console.log(shortWords);
+
+// day 2 of class exmaple work 
+
+const classes = [
+    {name: 'WDD 131', credits: 2},
+    {name: 'CSE 351', credits: 2},
+    {name: 'NUTR 150', credits: 3},
+]
+
+let container = document.querySelector('#classes');
+
+classes.forEach(function(item) {
+    let name = document.createElement('div');
+
+    let html = `
+        <span>${item.name}</span>
+        <span>$({item.credits})</span>
+        <hr>
+    `
+    name.innerHTML = html;
+
+    container.appendChild(name);
+})
           
