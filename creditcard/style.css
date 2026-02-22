@@ -1,0 +1,114 @@
+body{
+  font-size: 1.1em;
+}
+
+h1{
+  text-align: center;
+}
+
+.errors{
+  color: red;
+  white-space: pre-line;
+  margin: 0 auto 1rem auto;
+  width: 450px;
+}
+
+
+.card-container{
+  position: relative;
+  width: 450px;
+  height: 320px;     
+  margin: 2rem auto;
+}
+
+.card-front,
+.card-back{
+  width: 400px;
+  height: 240px;
+  background: #d9d9d9;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+.card-front{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 1.5rem;
+}
+
+.total{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 700;
+  margin: 0;
+}
+.total p{
+  margin: 0;
+}
+
+label{
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+input{
+  padding: 8px;
+  border: 2px solid #888;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#creditCardNumber,
+#creditCardHolder{
+  width: 270px;
+}
+
+#cardExpiration{
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+#cardExpiration input{
+  width: 70px;
+}
+
+.card-back{
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  z-index: 1;
+}
+
+.cvv{
+  position: absolute;
+  right: 24px;
+  top: 120px;
+  width: 120px;
+}
+
+.cvv input{
+  width: 100%;
+}
+
+.button{
+  width: 450px;
+  margin: 10px auto 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button{
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  background: #eee;
+  cursor: pointer;
+}
