@@ -7,7 +7,7 @@ const aCourse = {
         { sectionNum: 2, roomNum: 'STC 347', enrolled: 28, days: 'TTh', instructor: 'Sis A'}
         ],
 
-        enrollStudent: function () {
+        enrollStudent: function (sectionNum) {
                     // find the right section...Array.findIndex will work here
             const sectionIndex = this.sections.findIndex(
             (section) => section.sectionNum == sectionNum
