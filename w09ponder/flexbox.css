@@ -41,7 +41,7 @@ hr{
 }
 
 .gallery > * {
-    flex: 0 1 460px;
+    flex: 1 1 460px;
 }
 
 @media screen and (min-width: 700px) {
