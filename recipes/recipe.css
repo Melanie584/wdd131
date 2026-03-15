@@ -35,9 +35,17 @@ body{
     font-size: 16px;
 }
 
-.search{
+.submit{
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.submit img{
     width: 35px;
     height: 35px;
+    display: block;
 }
 
 .recipe{
